@@ -28,7 +28,7 @@ function ItemForm({ onSubmit, editItem }) {
             <button type="submit">
                 {editItem ? "Update" : "Add"}
             </button>
-        </form>x
+        </form>
     );
 }
 
