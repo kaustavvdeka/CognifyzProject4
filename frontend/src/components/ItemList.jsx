@@ -7,7 +7,7 @@ function ItemList({ items, onEdit, onDelete }) {
                 <li key={item._id}>
                     {item.name}
                     <button onClick={() => onEdit(item)}>Edit Name</button>
-                    <button onClick={() => onDelete(item._id)}>Delete</button>
+                    <button onClick={() => onDelete(item._id)}>Dele</button>
                 </li>
             ))}
         </ul>
